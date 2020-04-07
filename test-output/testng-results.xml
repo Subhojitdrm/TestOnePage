@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="softwaretestingmaterial" duration-ms="121" started-at="2020-04-07T00:16:28Z" finished-at="2020-04-07T00:16:28Z">
+    <groups>
+    </groups>
+    <test name="BaseTest" duration-ms="121" started-at="2020-04-07T00:16:28Z" finished-at="2020-04-07T00:16:28Z">
+      <class name="com.qa.PageTest.TestBlogPage">
+        <test-method status="PASS" signature="setExtentReport()[pri:0, instance:com.qa.PageTest.TestBlogPage@59fa1d9b]" name="setExtentReport" is-config="true" duration-ms="29" started-at="2020-04-07T00:16:28Z" finished-at="2020-04-07T00:16:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtentReport -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.PageTest.TestBlogPage@59fa1d9b]" name="setUp" is-config="true" duration-ms="1" started-at="2020-04-07T00:16:28Z" finished-at="2020-04-07T00:16:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test01()[pri:0, instance:com.qa.PageTest.TestBlogPage@59fa1d9b]" name="test01" duration-ms="16" started-at="2020-04-07T00:16:28Z" finished-at="2020-04-07T00:16:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.PageTest.TestBlogPage@59fa1d9b]" name="tearDown" is-config="true" duration-ms="11" started-at="2020-04-07T00:16:28Z" finished-at="2020-04-07T00:16:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="closeExtentReport()[pri:0, instance:com.qa.PageTest.TestBlogPage@59fa1d9b]" name="closeExtentReport" is-config="true" duration-ms="1" started-at="2020-04-07T00:16:28Z" finished-at="2020-04-07T00:16:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeExtentReport -->
+      </class> <!-- com.qa.PageTest.TestBlogPage -->
+    </test> <!-- BaseTest -->
+  </suite> <!-- softwaretestingmaterial -->
+</testng-results>
