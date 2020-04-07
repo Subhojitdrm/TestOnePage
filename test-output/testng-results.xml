@@ -1,82 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="softwaretestingmaterial" duration-ms="153220" started-at="2020-04-07T00:41:06Z" finished-at="2020-04-07T00:43:39Z">
+  <suite name="softwaretestingmaterial" duration-ms="283619" started-at="2020-04-07T00:55:08Z" finished-at="2020-04-07T00:59:51Z">
     <groups>
     </groups>
-    <test name="BaseTest" duration-ms="153220" started-at="2020-04-07T00:41:06Z" finished-at="2020-04-07T00:43:39Z">
+    <test name="BaseTest" duration-ms="283619" started-at="2020-04-07T00:55:08Z" finished-at="2020-04-07T00:59:51Z">
       <class name="com.qa.PageTest.TestBlogPage">
-        <test-method status="PASS" signature="setExtentReport()[pri:0, instance:com.qa.PageTest.TestBlogPage@5e5792a0]" name="setExtentReport" is-config="true" duration-ms="66" started-at="2020-04-07T00:41:06Z" finished-at="2020-04-07T00:41:06Z">
+        <test-method status="PASS" signature="setExtentReport()[pri:0, instance:com.qa.PageTest.TestBlogPage@5e5792a0]" name="setExtentReport" is-config="true" duration-ms="30" started-at="2020-04-07T00:55:08Z" finished-at="2020-04-07T00:55:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setExtentReport -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.PageTest.TestBlogPage@5e5792a0]" name="setUp" is-config="true" duration-ms="75653" started-at="2020-04-07T00:41:06Z" finished-at="2020-04-07T00:42:22Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.PageTest.TestBlogPage@5e5792a0]" name="setUp" is-config="true" duration-ms="104636" started-at="2020-04-07T00:55:08Z" finished-at="2020-04-07T00:56:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="testBlogButtonText()[pri:0, instance:com.qa.PageTest.TestBlogPage@5e5792a0]" name="testBlogButtonText" duration-ms="1976" started-at="2020-04-07T00:42:22Z" finished-at="2020-04-07T00:42:24Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [blog] but found [Blog]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [blog] but found [Blog]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:453)
-at org.testng.Assert.assertEquals(Assert.java:463)
-at com.qa.PageTest.TestBlogPage.testBlogButtonText(TestBlogPage.java:22)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method status="PASS" signature="testBlogButtonText()[pri:0, instance:com.qa.PageTest.TestBlogPage@5e5792a0]" name="testBlogButtonText" duration-ms="18915" started-at="2020-04-07T00:56:53Z" finished-at="2020-04-07T00:57:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testBlogButtonText -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.PageTest.TestBlogPage@5e5792a0]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-04-07T00:42:24Z" finished-at="2020-04-07T00:42:24Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.PageTest.TestBlogPage@5e5792a0]" name="tearDown" is-config="true" duration-ms="4232" started-at="2020-04-07T00:57:11Z" finished-at="2020-04-07T00:57:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.PageTest.TestBlogPage@5e5792a0]" name="setUp" is-config="true" duration-ms="74743" started-at="2020-04-07T00:42:24Z" finished-at="2020-04-07T00:43:39Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.PageTest.TestBlogPage@5e5792a0]" name="setUp" is-config="true" duration-ms="51484" started-at="2020-04-07T00:57:16Z" finished-at="2020-04-07T00:58:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testTitleText()[pri:0, instance:com.qa.PageTest.TestBlogPage@5e5792a0]" name="testTitleText" duration-ms="673" started-at="2020-04-07T00:43:39Z" finished-at="2020-04-07T00:43:39Z">
+        <test-method status="PASS" signature="testReadBlogUrl()[pri:0, instance:com.qa.PageTest.TestBlogPage@5e5792a0]" name="testReadBlogUrl" duration-ms="10464" started-at="2020-04-07T00:58:07Z" finished-at="2020-04-07T00:58:18Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testTitleText -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.PageTest.TestBlogPage@5e5792a0]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-04-07T00:43:39Z" finished-at="2020-04-07T00:43:39Z">
+        </test-method> <!-- testReadBlogUrl -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.PageTest.TestBlogPage@5e5792a0]" name="tearDown" is-config="true" duration-ms="921" started-at="2020-04-07T00:58:18Z" finished-at="2020-04-07T00:58:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="closeExtentReport()[pri:0, instance:com.qa.PageTest.TestBlogPage@5e5792a0]" name="closeExtentReport" is-config="true" duration-ms="1" started-at="2020-04-07T00:43:39Z" finished-at="2020-04-07T00:43:39Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.PageTest.TestBlogPage@5e5792a0]" name="setUp" is-config="true" duration-ms="51508" started-at="2020-04-07T00:58:19Z" finished-at="2020-04-07T00:59:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testTitleText()[pri:0, instance:com.qa.PageTest.TestBlogPage@5e5792a0]" name="testTitleText" duration-ms="38912" started-at="2020-04-07T00:59:10Z" finished-at="2020-04-07T00:59:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTitleText -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.PageTest.TestBlogPage@5e5792a0]" name="tearDown" is-config="true" duration-ms="2433" started-at="2020-04-07T00:59:49Z" finished-at="2020-04-07T00:59:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="closeExtentReport()[pri:0, instance:com.qa.PageTest.TestBlogPage@5e5792a0]" name="closeExtentReport" is-config="true" duration-ms="1" started-at="2020-04-07T00:59:51Z" finished-at="2020-04-07T00:59:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeExtentReport -->

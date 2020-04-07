@@ -24,6 +24,10 @@ public class Blog extends BasePage{
 	public String getReadBlogLinkText() {
 		return getContent(readBlogLinkText);
 	}
+	public String getBlogUrl() {
+		getElement(readBlogLinkText).click();
+		return getPageUrl();
+	}
 
 
 	
